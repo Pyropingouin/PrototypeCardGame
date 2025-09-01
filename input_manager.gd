@@ -4,7 +4,7 @@ signal left_mouse_boutton_clicked
 signal left_mouse_boutton_released
 
 const COLLISION_MASK_CARD = 1
-const COLLISION_MASK_CARD_DECK = 2
+const COLLISION_MASK_CARD_DECK = 4
 
 var card_manager_reference
 var deck_reference
@@ -30,6 +30,7 @@ func raycast_at_cursor():
 	parameters.position = get_global_mouse_position()
 	parameters.collide_with_areas = true
 	var result = space_state.intersect_point(parameters)
+	
 
 	
 	if result.size() > 0:  

@@ -1,0 +1,6 @@
+res://Main.tscn
+res://deck.gd
+res://CardManager.gd
+res://input_manager.gd
+res://player_hand.gd
+res://Scenes/Card.tscn

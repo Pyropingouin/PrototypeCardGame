@@ -7,6 +7,7 @@
 size = Vector2(124.5, 122)
 
 [node name="Card" type="Node2D"]
+position = Vector2(150, 890)
 script = ExtResource("1_bqii0")
 
 [node name="CardImage" type="Sprite2D" parent="."]
@@ -15,7 +16,6 @@ scale = Vector2(0.0605469, 0.0595703)
 texture = ExtResource("2_bgq0h")
 
 [node name="Area2D" type="Area2D" parent="."]
-position = Vector2(0, 2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("RectangleShape2D_r4yqi")
