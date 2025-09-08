@@ -1,15 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756759317
+::res://::1757303033
 card.gd::GDScript::-1::1756739211::0::1::::<>Node2D<>::
 CardDatabase.gd::GDScript::-1::1756759172::0::1::::<>RefCounted<>::
-CardManager.gd::GDScript::-1::1756745236::0::1::::<>Node2D<>::
+CardManager.gd::GDScript::-1::1757302348::0::1::::<>Node2D<>::
 CardSlot.png::CompressedTexture2D::3212851905474539218::1756739211::1756739425::1::::<><>::
 card_slot.gd::GDScript::-1::1756739211::0::1::::<>Node2D<>::
-deck.gd::GDScript::-1::1756759297::0::1::::<>Node2D<>::
+deck.gd::GDScript::-1::1756759363::0::1::::<>Node2D<>::
 icon.svg::CompressedTexture2D::7285660028303691269::1756739211::1756739425::1::::<><>::
 input_manager.gd::GDScript::-1::1756743668::0::1::::<>Node2D<>::
-Main.tscn::PackedScene::6790355967381471689::1756759298::0::1::::<><>::res://CardManager.gd<>res://player_hand.gd<>uid://c7bn7rin5slvd::::res://image/CarteDos.png<>res://deck.gd<>uid://dnk8p6illxobu::::res://Scenes/card_slot.tscn<>res://input_manager.gd
-player_hand.gd::GDScript::-1::1756745341::0::1::::<>Node2D<>::
+Main.tscn::PackedScene::6790355967381471689::1757303016::0::1::::<><>::res://CardManager.gd<>res://player_hand.gd<>uid://c7bn7rin5slvd::::res://image/CarteDos.png<>res://deck.gd<>uid://dnk8p6illxobu::::res://Scenes/card_slot.tscn<>res://input_manager.gd
+player_hand.gd::GDScript::-1::1757302504::0::1::::<>Node2D<>::
 README.md::TextFile::-1::1756739211::0::1::::<><>::
 ::res://image/::1756739427
 CarteDos.png::CompressedTexture2D::7021796113755078153::1756739211::1756739425::1::::<><>::
@@ -56,6 +56,6 @@ Illustration_sans_titre 27.png::CompressedTexture2D::5591811614680441112::175673
 Illustration_sans_titre 28.png::CompressedTexture2D::7190354101168603880::1756739211::1756739426::1::::<><>::
 Illustration_sans_titre 29.png::CompressedTexture2D::9156369541249195948::1756739211::1756739426::1::::<><>::
 Illustration_sans_titre 30.png::CompressedTexture2D::8684845314645143408::1756739211::1756739426::1::::<><>::
-::res://Scenes/::1756759298
-Card.tscn::PackedScene::1385396446639272722::1756759298::0::1::::<><>::res://card.gd<>uid://clv4sfj5lf7bh::::res://image/Illustration_sans_titre 16.png
+::res://Scenes/::1757303016
+Card.tscn::PackedScene::1385396446639272722::1757303016::0::1::::<><>::res://card.gd<>uid://clv4sfj5lf7bh::::res://image/Illustration_sans_titre 16.png
 card_slot.tscn::PackedScene::8094392884681888054::1756739211::0::1::::<><>::uid://bl1lg357qktyg::::res://CardSlot.png<>res://card_slot.gd
