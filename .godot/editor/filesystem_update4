@@ -1,3 +1,9 @@
 res://Main.tscn
-res://Scenes/Card.tscn
+res://card.gd
 res://CardManager.gd
+res://Scenes/Card.tscn
+res://deck.gd
+res://CardDatabase.gd
+res://MonsterCardSlot.gd
+res://MagicCardSlot.gd
+res://Scenes/EnemyCardSlot.tscn

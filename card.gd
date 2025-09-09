@@ -4,6 +4,8 @@ signal hovered
 signal hovered_off
 
 var starting_position
+var card_slot_card_is_in
+var card_type
 
 func _ready() -> void:
 	#All cards must be a child of CardManager or this will error

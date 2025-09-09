@@ -1,10 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://c30kf2lfxl2m4"]
+[gd_scene load_steps=8 format=3 uid="uid://c30kf2lfxl2m4"]
 
 [ext_resource type="Script" path="res://CardManager.gd" id="1_ajda0"]
 [ext_resource type="Script" path="res://player_hand.gd" id="3_khy05"]
-[ext_resource type="Script" path="res://MagicCardSlot.gd" id="3_mvwwl"]
 [ext_resource type="Texture2D" uid="uid://c7bn7rin5slvd" path="res://image/CarteDos.png" id="4_ejgxf"]
-[ext_resource type="PackedScene" uid="uid://drtmtmxm2xrcj" path="res://Scenes/EnemyCardSlot.tscn" id="4_ou1ox"]
 [ext_resource type="Script" path="res://deck.gd" id="4_u2h8i"]
 [ext_resource type="PackedScene" uid="uid://dnk8p6illxobu" path="res://Scenes/card_slot.tscn" id="4_ua3io"]
 [ext_resource type="Script" path="res://input_manager.gd" id="6_46ig2"]
@@ -19,99 +17,84 @@ script = ExtResource("1_ajda0")
 
 [node name="CardSlots" type="Node2D" parent="."]
 
-[node name="CardSlot1" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
+[node name="CardSlot" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(800, 750)
 scale = Vector2(0.6, 0.6)
-script = ExtResource("3_mvwwl")
 
 [node name="CardSlot2" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(950, 750)
 scale = Vector2(0.6, 0.6)
-script = ExtResource("3_mvwwl")
 
 [node name="CardSlot3" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1100, 750)
 scale = Vector2(0.6, 0.6)
-script = ExtResource("3_mvwwl")
 
 [node name="CardSlot4" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1250, 750)
 scale = Vector2(0.6, 0.6)
-script = ExtResource("3_mvwwl")
 
 [node name="CardSlot5" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1400, 750)
 scale = Vector2(0.6, 0.6)
-script = ExtResource("3_mvwwl")
 
 [node name="CardSlot6" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(800, 650)
 scale = Vector2(0.6, 0.6)
 
 [node name="CardSlot7" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(950, 650)
 scale = Vector2(0.6, 0.6)
 
 [node name="CardSlot8" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1100, 650)
 scale = Vector2(0.6, 0.6)
 
 [node name="CardSlot9" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1250, 650)
 scale = Vector2(0.6, 0.6)
 
 [node name="CardSlot10" parent="CardSlots" instance=ExtResource("4_ua3io")]
-z_index = -3
 position = Vector2(1400, 650)
 scale = Vector2(0.6, 0.6)
 
-[node name="EnemyCardSlot1" parent="CardSlots" instance=ExtResource("4_ou1ox")]
-position = Vector2(800, 400)
-scale = Vector2(0.6, 0.6)
-
-[node name="EnemyCardSlot2" parent="CardSlots" instance=ExtResource("4_ou1ox")]
-position = Vector2(950, 400)
-scale = Vector2(0.6, 0.6)
-
-[node name="EnemyCardSlot3" parent="CardSlots" instance=ExtResource("4_ou1ox")]
-position = Vector2(1100, 400)
-scale = Vector2(0.6, 0.6)
-
-[node name="EnemyCardSlot4" parent="CardSlots" instance=ExtResource("4_ou1ox")]
-position = Vector2(1250, 400)
-scale = Vector2(0.6, 0.6)
-
-[node name="EnemyCardSlot5" parent="CardSlots" instance=ExtResource("4_ou1ox")]
-position = Vector2(1400, 400)
-scale = Vector2(0.6, 0.6)
-
-[node name="EnemyCardSlot6" parent="CardSlots" instance=ExtResource("4_ou1ox")]
+[node name="CardSlot11" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(800, 300)
 scale = Vector2(0.6, 0.6)
 
-[node name="EnemyCardSlot7" parent="CardSlots" instance=ExtResource("4_ou1ox")]
+[node name="CardSlot12" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(950, 300)
 scale = Vector2(0.6, 0.6)
 
-[node name="EnemyCardSlot8" parent="CardSlots" instance=ExtResource("4_ou1ox")]
+[node name="CardSlot13" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(1100, 300)
 scale = Vector2(0.6, 0.6)
 
-[node name="EnemyCardSlot9" parent="CardSlots" instance=ExtResource("4_ou1ox")]
+[node name="CardSlot14" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(1250, 300)
 scale = Vector2(0.6, 0.6)
 
-[node name="EnemyCardSlot10" parent="CardSlots" instance=ExtResource("4_ou1ox")]
+[node name="CardSlot15" parent="CardSlots" instance=ExtResource("4_ua3io")]
 position = Vector2(1400, 300)
+scale = Vector2(0.6, 0.6)
+
+[node name="CardSlot16" parent="CardSlots" instance=ExtResource("4_ua3io")]
+position = Vector2(800, 200)
+scale = Vector2(0.6, 0.6)
+
+[node name="CardSlot17" parent="CardSlots" instance=ExtResource("4_ua3io")]
+position = Vector2(950, 200)
+scale = Vector2(0.6, 0.6)
+
+[node name="CardSlot18" parent="CardSlots" instance=ExtResource("4_ua3io")]
+position = Vector2(1100, 200)
+scale = Vector2(0.6, 0.6)
+
+[node name="CardSlot19" parent="CardSlots" instance=ExtResource("4_ua3io")]
+position = Vector2(1250, 200)
+scale = Vector2(0.6, 0.6)
+
+[node name="CardSlot20" parent="CardSlots" instance=ExtResource("4_ua3io")]
+position = Vector2(1400, 200)
 scale = Vector2(0.6, 0.6)
 
 [node name="PlayerHand" type="Node2D" parent="."]
