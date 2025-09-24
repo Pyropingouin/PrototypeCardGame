@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckqn3vyi7kkdy"]
+
+[ext_resource type="Script" path="res://OpponentCard.gd" id="1_j5vdx"]
+[ext_resource type="Texture2D" uid="uid://clv4sfj5lf7bh" path="res://image/Illustration_sans_titre 16.png" id="2_fqr1r"]
+
+[node name="Card" type="Node2D"]
+position = Vector2(1700, 125)
+scale = Vector2(0.8, 0.8)
+script = ExtResource("1_j5vdx")
+
+[node name="CardImage" type="Sprite2D" parent="."]
+position = Vector2(-2.38419e-07, 2)
+scale = Vector2(0.0605469, 0.0595703)
+texture = ExtResource("2_fqr1r")
+
+[node name="Attack" type="RichTextLabel" parent="."]
+modulate = Color(0, 0, 0, 1)
+offset_left = -62.0
+offset_top = 24.0
+offset_right = -22.0
+offset_bottom = 64.0
+text = "0"
+
+[node name="Health" type="RichTextLabel" parent="."]
+modulate = Color(0, 0, 0, 1)
+offset_left = 22.0
+offset_top = 19.0
+offset_right = 62.0
+offset_bottom = 59.0
+text = "0"

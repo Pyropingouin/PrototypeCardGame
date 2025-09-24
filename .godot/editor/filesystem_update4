@@ -1,9 +1,8 @@
 res://Main.tscn
-res://card.gd
-res://CardManager.gd
 res://Scenes/Card.tscn
-res://deck.gd
-res://CardDatabase.gd
-res://MonsterCardSlot.gd
-res://MagicCardSlot.gd
-res://Scenes/EnemyCardSlot.tscn
+res://BattleManager.gd
+res://OpponentDeck.gd
+res://enemy_hand.gd
+res://Scenes/EnemyCard.tscn
+res://EnemyCard.gd
+res://Scenes/OpponentCard.tscn
